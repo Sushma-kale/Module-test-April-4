@@ -1,0 +1,259 @@
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+body{
+    background: #070707;
+
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav{
+    border-radius: 50px;
+    display: flex;
+    width: 1520px;
+    align-items: center;
+    height: 60px;
+    border: 1px solid rgb(173, 155, 122);
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+a.btn1{
+    color: rgb(173, 155, 122);
+    background-color: rgb(35, 32, 24);
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+a.btn2{
+    color: #070707;
+    background-color: rgb(173, 155, 122);
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+a.btn{
+    color: rgb(173, 155, 122);
+    border: 1px solid rgb(173, 155, 122);
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.collections .box-container{
+    display: grid;
+    grid-template-rows: 225px ;
+    grid-template-columns: 452px 510px;
+    gap: 1rem;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.box1{
+    background-color: rgb(218, 208, 150);
+    border-radius: 15px;
+    width: 460px;
+    height: 655px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 img{
+    border-radius: 25px;
+    padding: 10px;
+    height: 33rem;
+}
+
+
+a.btn3{
+    color: #070707;
+    border: 1px solid #070707;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+}
+
+.box1 h2{
+    color: #070707;
+    padding: 5px;
+    padding-left: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box2{
+    background-color: rgb(137, 128, 77);
+    border-radius: 15px;
+    width: 1040px;
+    width: 100% auto;
+    height: 250px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 img{
+    border-radius: 40px;
+    position: absolute;
+    margin-right: -600px;
+    margin-bottom: 60px;
+    height: 160px;
+    float: right;
+}
+
+a.btn4{
+    color: #070707;
+    border: 1px solid #070707;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+}
+
+.box2 h1{
+    color: #070707;
+    padding: 5px;
+    padding-left: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box3 {
+    background-color: rgb(165, 93, 67);
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 515px;
+    height: 400px;
+    padding: 15px;
+    grid-column: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 img{
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    padding-top: 10px;
+}
+
+.box4 {
+    background-color: rgb(189, 178, 108);
+    border-radius: 15px;
+    margin-top: 1px;
+    width: 513px;
+    height: 400px;
+    margin-top: 15px;
+    padding: 15px;
+    grid-column: 3;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 h1{
+    color: #070707;
+    padding: 30px;
+    padding-left: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a.btn5{
+    color: #070707;
+    border: 1px solid #070707;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+}
+.box4 img{
+    border-radius: 100%;
+    float: right;
+    margin-right: 40px;
+    margin-top: -180px;
+}
+
+.b3 h3{
+    display: inline-block;
+}
+.b2 h3{
+    display: inline-block;
+}
+.b4 h3{
+    display: inline-block;
+}
+.b1 h3{
+    display: inline-block;
+}
+.material-symbols-outlined{
+    float: right;
+}
+.b1{
+    padding-top: 15px;
+}
+.b2{
+    padding-top: 78px;
+}
+.b3{
+    padding-top: 35px;
+}
+.b4{
+    padding-top: 122px;
+}
+.line1{
+    width: 462px;
+    position: absolute;
+    background-color: #070707;
+    padding-top: 1px;
+    left: 12px;
+}
+.line2{
+    width: 1045px;
+    position: absolute;
+    background-color: #070707;
+    padding-top: 0.5px;
+    left: 480px;
+    margin-top: 70px;
+}
+.line3{
+    width: 517px;
+    position: absolute;
+    background-color: #070707;
+    padding-top: 0.5px;
+    left: 480px;
+    margin-top: 20px;
+    
+}
+.line4{
+    width: 513px;
+    position: absolute;
+    background-color: #070707;
+    padding-top: 0.5px;
+    left: 1010px;
+    margin-top: 110px;
+    
+}
